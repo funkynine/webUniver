@@ -1,0 +1,51 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.House{
+    margin: 100px;
+}
+
+.House div:nth-child(2){
+    width: 100px;
+    height: 200px;
+    background: gray;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid brown;
+}
+
+.House div:nth-child(3){
+    width: 30px;
+    height: 30px;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    bottom: 150px;
+    margin-left: 10px;
+}
+
+.House div:nth-child(4){
+    width: 30px;
+    height: 30px;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    bottom: 180px;
+    margin-left: 60px;
+}
+
+.House div:nth-child(5){
+    width: 25px;
+    height: 50px;
+    position: relative;
+    background: black;
+    bottom: 110px;
+    margin-left: 39px;
+}
