@@ -97,7 +97,7 @@ Lab 2 Web
         }
     </style>
 
-    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-2.2.4.js"></script> -->
 
     <!-- Title -->
     <title>funkynine</title>
@@ -140,35 +140,47 @@ Lab 2 Web
             </defs>
         </svg>
 
+
+
+
+
+
         <div class="content">
 
-            <header>
-                <div class="header">
-                    <img src="img/github.png" alt="github">
-                    <div class="headText">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quo sapiente beatae, nisi. Ea officiis unde inventore fugit, debitis earum quis error ab possimus natus modi temporibus perspiciatis. Molestias, suscipit?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, ducimus laboriosam quas cupiditate inventore sequi. Ea sapiente unde, omnis harum. Error saepe tempore quos corporis distinctio magnam alias esse at.</p>
+            <div class="wrap">
+                <header>
+                    <div class="header">
+                        <img src="img/github.png" alt="github">
+                        <div class="headText">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quo sapiente beatae, nisi. Ea officiis unde inventore fugit, debitis earum quis error ab possimus natus modi temporibus perspiciatis. Molestias, suscipit?
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, ducimus laboriosam quas cupiditate inventore sequi. Ea sapiente unde, omnis harum. Error saepe tempore quos corporis distinctio magnam alias esse at.</p>
+                        </div>
                     </div>
-                </div>
-            </header>
-            <section>
-                <div class="sectionOne">
-                    <img src="img/hands.png" alt="img">
-                    <div class="centrText">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quo sapiente beatae, nisi. Ea officiis unde inventore fugit, debitis earum quis error ab possimus natus modi temporibus perspiciatis. Molestias, suscipit?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, ducimus laboriosam quas cupiditate inventore sequi. Ea sapiente unde, omnis harum. Error saepe tempore quos corporis distinctio magnam alias esse at.</p>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="sectionTwo">
-                    <div class="centrText">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quo sapiente beatae, nisi. Ea officiis unde inventore fugit, debitis earum quis error ab possimus natus modi temporibus perspiciatis. Molestias, suscipit?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, ducimus laboriosam quas cupiditate inventore sequi. Ea sapiente unde, omnis harum. Error saepe tempore quos corporis distinctio magnam alias esse at.</p>
-                    </div>
-                    <img src="img/brain.png" alt="img">
-                </div>
-            </section>
+                </header>
+
+                <main>
+                    <section>
+                        <div class="sectionOne">
+                            <img src="img/hands.png" alt="img">
+                            <div class="centrText">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quo sapiente beatae, nisi. Ea officiis unde inventore fugit, debitis earum quis error ab possimus natus modi temporibus perspiciatis. Molestias, suscipit?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, ducimus laboriosam quas cupiditate inventore sequi. Ea sapiente unde, omnis harum. Error saepe tempore quos corporis distinctio magnam alias esse at.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sectionTwo">
+                            <div class="centrText">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quo sapiente beatae, nisi. Ea officiis unde inventore fugit, debitis earum quis error ab possimus natus modi temporibus perspiciatis. Molestias, suscipit?
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, ducimus laboriosam quas cupiditate inventore sequi. Ea sapiente unde, omnis harum. Error saepe tempore quos corporis distinctio magnam alias esse at.</p>
+                            </div>
+                            <img src="img/brain.png" alt="img">
+                        </div>
+                    </section>
+                </main>
+
+            </div>
+
             <footer>
                 <div class="footer">
                     <img src="img/king.png" alt="linux">
@@ -185,14 +197,14 @@ Lab 2 Web
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ex consectetur dolorum at
                     </div>
                     <div class="forma">
-                        <input type="text" autocomplete="email" placeholder="Email: ">
+                        <form class="get" action="index.html" method="GET">
+                            <input type="text" placeholder="Email: ">
 
-                        <div class="button"><a href="#">Get news</a></div>
-
+                            <a href="#" id='getNews'><div class="button">Get News</div></a>
+                        </form>
                     </div>
                 </div>
             </footer>
-
 
         </div>
     </div>
