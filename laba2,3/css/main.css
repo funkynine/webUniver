@@ -1,0 +1,238 @@
+/*
+Igor Bazyliuk
+Lab 2 Web
+-- version 1
+*/
+
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wrap {
+  flex: 1 0 auto;
+}
+
+footer{
+    fle
+}
+
+/*------------HEADER-----------------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 275px;
+    height: 250px;
+}
+.headText{
+    margin-left: 10%;
+}
+
+.headText p {
+    color: #d1d1d1;
+    font-size: 1.6em;
+    font-family: 'K2D', sans-serif;
+    font-style: italic;
+    width: 85%;
+    border-left: solid 6px #111;
+    padding: 15px;
+}
+
+/*------------------SECTION_1-----------*/
+.sectionOne {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.sectionOne img {
+    width: 250px;
+    height: 175px;
+}
+
+.centrText {
+    width: 850px;
+    color: #d1d1d1;
+    font-family: 'K2D', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.centrText p {
+    margin-left: 5%;
+}
+
+/*----------------SECTION_2--------------*/
+.sectionTwo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.sectionTwo img {
+    width: 250px;
+    height: 175px;
+}
+
+
+/*---------------FOOTER------------------*/
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    flex: 0 0 auto;
+}
+
+.footer img {
+    width: 130px;
+    height: 150px;
+}
+
+.footerText {
+    width: 150px;
+    color: #d1d1d1;
+    font-size: 14px;
+}
+
+.footerText h3 {
+    font-weight: 700;
+}
+
+.button {
+    padding: 10px;
+    background: #25a7ed;
+    border-radius: 8px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#getNews {
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+input {
+    font-size: 14px;
+    height: 25px;
+}
+
+/*----------------Animation------------*/
+.animation1 {
+    top: 38.15967523680649%;
+    left: 10.15625%;
+    animation-delay: -3.15s;
+}
+
+.animation2 {
+    top: 20.83897158322057%;
+    left: 70.78125%;
+    animation-delay: -1.2s;
+}
+
+.animation3 {
+    top: 7.848443843031123%;
+    left: 37.421875%;
+    animation-delay: -1.9s;
+}
+
+.animation4 {
+    top: 81.32611637347767%;
+    left: 87.578125%;
+    animation-delay: -4.65s;
+}
+
+.animation5 {
+    top: 91.33964817320704%;
+    left: 63.203125%;
+    animation-delay: -3s;
+}
+
+.animation6 {
+    top: 46.14343707713126%;
+    left: 23.828125%;
+    animation-delay: -4.85s;
+}
+
+.animation7 {
+    top: 4.194857916102841%;
+    left: 63.4375%;
+    animation-delay: -3.95s;
+}
+
+.animation8 {
+    top: 69.68876860622463%;
+    left: -1.484375%;
+    animation-delay: -3.25s;
+}
+
+.animation9 {
+    top: 63.59945872801082%;
+    left: 50.625%;
+    animation-delay: -0.8s;
+}
+
+.animation10 {
+    top: 35.859269282814616%;
+    left: 86.25%;
+    animation-delay: -3.85s;
+}
+
+.animation11 {
+    top: 96.75236806495263%;
+    left: 14.375%;
+    animation-delay: -2.05s;
+}
+
+.animation12 {
+    top: 29.22868741542625%;
+    left: 48.203125%;
+    animation-delay: -4.45s;
+}
+
+.animation13 {
+    top: 15.561569688768607%;
+    left: 5.3125%;
+    animation-delay:
+        -3.2s;
+}
+
+.animation14 {
+    top: 85.65629228687415%;
+    left: 70.9375%;
+    animation-delay: -2.05s;
+}
+
+.animation15 {
+    top: 78.34912043301759%;
+    left: 31.40625%;
+    animation-delay: -1.5s;
+}
+
+.animation16 {
+    top: 17.320703653585927%;
+    left: 17.1875%;
+    animation-delay: -2.35s;
+}
+
+.animation17 {
+    top: 6.630581867388362%;
+    left: 91.015625%;
+    animation-delay: -4.85s;
+}
+
+.animation18 {
+    top: 44.65493910690122%;
+    left: 58.828125%;
+    animation-delay: -0.4s;
+}

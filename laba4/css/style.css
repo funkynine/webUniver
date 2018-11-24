@@ -1,0 +1,251 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Catamaran', sans-serif;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content{
+    height: auto;
+    width: 1284px;
+    flex: 1 0 auto;
+}
+
+footer{
+    flex: 0 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/* ---------------HEADER---------------- */
+
+header{
+    background: url(../img/backgroundHeader.jpg) no-repeat center;
+    height: 665px;
+}
+
+.logoAndText{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textHead h1{
+    color: #333;
+    width: 300px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.5em;
+    font-stretch: ultra-expanded;
+    line-height: 1.5em;
+    margin-top: 12%;
+}
+
+.logo {
+    margin-top: 10%;
+}
+
+
+/* --------------- FORMA ---------------------- */
+
+.forma{
+    margin-top: 10%;
+}
+
+.container {
+    width: 380px;
+    color: #888;
+}
+
+/* Style the tabs */
+.tabs {
+    overflow: hidden;
+    margin-bottom: -2px; // hide bottom border
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.tab{
+    width: 50%;
+}
+
+.tabs a{
+    float: left;
+    cursor: pointer;
+    padding: 12px 24px;
+    transition: background-color 0.2s;
+    border-right: none;
+    background-color: #c1c7c7;
+    font-weight: bold;
+}
+.tabs a:last-child {
+    background-color: #c1c7c7;
+    color: #444545;
+}
+
+/* Change background color of tabs on hover */
+.tabs a:hover {
+    background-color: #aaa;
+    color: #fff;
+}
+
+/* Styling for active tab */
+.tabs a.active {
+    background-color: #2e4041;
+    color: #fff;
+    cursor: default;
+}
+
+/* Style the tab content */
+.tabcontent {
+    height: 430px;
+    width: 380px;
+    background-color: #2e4041;
+    display: none;
+}
+.info .active {
+  display: block;
+}
+
+/* ------------------- INPUT's TAB_1 -------------- */
+
+.enterText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+}
+
+.enterText p{
+    margin-top: 5%;
+    margin-left: 10%;
+    color: #fff;
+}
+
+.enterText input{
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 3%;
+    font-size: 16px;
+
+}
+
+.enterText input:first-child{
+    margin-top: 15%;
+}
+
+.enterText a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+.enterText a div{
+    background: #ff6600;
+    color: #333;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-weight: 800;
+    height: 35px;
+    text-align: center;
+}
+
+/* -----------------SECTION-------------- */
+
+.sectionText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 210px;
+}
+
+.sectionText p:first-child{
+    color: #00a8b2;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sectionText p:last-child{
+    color: #585858;
+    font-size: 1.2em;
+}
+
+.sectionTextSecond{
+    height: 400px;
+}
+
+.sectionTextSecond p:first-child{
+    color: #00a8b2;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+/* --------------------- ITEM's------------------ */
+
+.block{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item{
+    margin-top: 5%;
+    width: 200px;
+
+}
+
+.item img{
+    margin-left: 30%;
+}
+
+.upItem{
+    color: #00a8b2;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.downItem{
+    text-align: center;
+    color: #585858;
+}
+
+/*-------------------FOOTER-----------------*/
+.footer{
+    height: 120px;
+    width: 1284px;
+    background: #333;
+}
+
+.mainFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainFooter img{
+    margin: 2% 0 0 2%;
+}
+
+.infofooter p{
+    color: #fff;
+    text-align: center;
+}
+
+.infofooter{
+    margin: 2% 2% 0 0;
+}
