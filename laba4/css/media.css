@@ -1,0 +1,78 @@
+@media screen and (max-width: 375px){
+
+    .content{
+        height: auto;
+        width: 375px;
+    }
+
+    header{
+        background: url(../img/backgroundHeader.jpg) no-repeat;
+        height: 665px;
+        width: 375px;
+    }
+
+    .logo{
+        margin-left: 10%;
+    }
+
+    .container {
+        width: 100%;
+        color: #888;
+    }
+
+    .tabcontent {
+        height: 430px;
+        width: 100%;
+        background-color: #2e4041;
+        display: none;
+    }
+
+    .logoAndText{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 210px;
+        margin-top: 50%;
+    }
+
+    .block{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item{
+        margin-top: 5%;
+        width: 200px;
+        margin-left: 25%;
+    }
+
+    .footer{
+        height: 120px;
+        width: 100%;
+        background: #333;
+        margin-top: 120%;
+    }
+
+    .mainFooter{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mainFooter img{
+        margin: 2% 0 0 2%;
+        height: 30%;
+        width: 30%;
+    }
+
+    .infofooter p{
+        color: #fff;
+        text-align: center;
+        font-size: 10px;
+    }
+}

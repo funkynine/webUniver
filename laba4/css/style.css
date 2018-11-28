@@ -34,6 +34,7 @@ footer{
 header{
     background: url(../img/backgroundHeader.jpg) no-repeat center;
     height: 665px;
+    width: 100%;
 }
 
 .logoAndText{
@@ -228,7 +229,7 @@ header{
 /*-------------------FOOTER-----------------*/
 .footer{
     height: 120px;
-    width: 1284px;
+    width: 100%;
     background: #333;
 }
 
