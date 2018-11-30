@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 html,
 body {
@@ -17,7 +17,8 @@ body {
 
 .content{
     height: auto;
-    width: 1284px;
+    width: 100%;
+    max-width: 1284px;
     flex: 1 0 auto;
 }
 
@@ -33,7 +34,7 @@ footer{
 
 header{
     background: url(../img/backgroundHeader.jpg) no-repeat center;
-    height: 665px;
+    min-height: 669px;
     width: 100%;
 }
 
@@ -171,25 +172,29 @@ header{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 210px;
+    min-height: 210px;
 }
 
-.sectionText p:first-child{
+.sectionText h2{
     color: #00a8b2;
     font-size: 30px;
     font-weight: bold;
 }
 
-.sectionText p:last-child{
+.sectionText p{
     color: #585858;
     font-size: 1.2em;
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+    margin-left: 15%;
 }
 
 .sectionTextSecond{
-    height: 400px;
+    min-height: 400px;
 }
 
-.sectionTextSecond p:first-child{
+.sectionTextSecond h2{
     color: #00a8b2;
     font-size: 30px;
     font-weight: bold;
@@ -200,7 +205,6 @@ header{
 .block{
     display: flex;
     justify-content: space-around;
-
 }
 
 .item{
@@ -228,7 +232,7 @@ header{
 
 /*-------------------FOOTER-----------------*/
 .footer{
-    height: 120px;
+    min-height: 120px;
     width: 100%;
     background: #333;
 }
