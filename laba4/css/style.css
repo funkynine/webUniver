@@ -251,6 +251,15 @@ header{
     text-align: center;
 }
 
+.line::before, .line::after{
+  content: '';
+  background-color: #fff;
+  display: inline-block;
+  width: 25px;
+  height: 2px;
+  margin: 3px;
+}
+
 .infofooter{
     margin: 2% 2% 0 0;
 }
